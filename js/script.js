@@ -25,8 +25,8 @@ function startGame() {
 
 function gamearea() {
     this.canvas = document.createElement("canvas");
-    this.canvas.width = 320;
-    this.canvas.height = 180;    
+    this.canvas.width = 580;
+    this.canvas.height = 320;    
     document.getElementById("canvascontainer").appendChild(this.canvas);
     this.context = this.canvas.getContext("2d");
     this.pause = false;

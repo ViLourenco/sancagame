@@ -1,19 +1,53 @@
+html { 
+  background: url(../img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #myfilter{
 	position: absolute;
 	background-color: #000000;
 	opacity: 0.3;
-	width: 322px;
-	height: 182px;
+	width: 580px;
+	height: 320px;
 	display: none
 }
 
 #myrestartbutton{
 	position: absolute;
-	padding-top: 75px;
-	padding-left: 120px;
+	width: 50px;
+	top: 150px;
+	right: 300px;
+	text-align: center;
 	display: none;
+}
+
+#canvascontainer {
+	margin: 0 auto;
+	display: block;
+	width: 580px;
+	height: 320px;
+	background-color: #fff;
+	position: relative;
 }
 
 h1 {
 	font-family: 'VT323', monospace;
+	text-align: center;
+	font-size: 120px;
+}
+
+.instructions {
+	font-family: 'VT323', monospace;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	background-color: #000;
+	padding: 10px 2px 10px 2px; 
+	width: 580px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
 }
