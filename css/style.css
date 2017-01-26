@@ -1,0 +1,19 @@
+#myfilter{
+	position: absolute;
+	background-color: #000000;
+	opacity: 0.3;
+	width: 322px;
+	height: 182px;
+	display: none
+}
+
+#myrestartbutton{
+	position: absolute;
+	padding-top: 75px;
+	padding-left: 120px;
+	display: none;
+}
+
+h1 {
+	font-family: 'VT323', monospace;
+}
