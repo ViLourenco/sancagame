@@ -1,7 +1,7 @@
 var myGameArea;
 var myCar;
 var myObstacles = [];
-var myscore;
+var myscore; 
 
 function restartGame() {
     document.getElementById("myfilter").style.display = "none";
